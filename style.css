@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.from{
+    width: 500px;
+    margin: 0 auto;
+    background-color: thistle;
+    padding: 20px;
+    margin-top: 50px;
+}
+.head{
+    text-align: center;
+
+}
+.head h2{
+    font-size: 40px;
+    color: turquoise;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.field{
+    text-align: center;
+    margin:20px ;
+    
+}
+
+.field input{
+    width: 400px;
+    
+  
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding-left: 10px;
+}
+
+ .field input::placeholder{
+     font-size: 18px;
+     color:#777;
+ } 
+ .field button{
+     padding: 10px 25px;
+     background-color:blue;
+     color: #fff;
+     border: 0;
+     border-radius: 25px;
+ }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
